@@ -19,7 +19,7 @@ With face detection, you can get the information you need to perform tasks like 
    # Haar cascade FrontalFace 
  
  Face detection using Haar cascades is a machine learning based approach where a cascade function is trained with a set of input data. 
- It is basically adaboosting learning algorithm
+ It is basically adaboosting learning algorithm.The algorithm is proposed by Paul Viola and Michael Jones.
  
  In this algorithm predefined features/windows are made to convolve over image. If feature best fit over the image then there is a chance that it is a face.
  Only relevant features are selected while processing the image
@@ -52,17 +52,31 @@ Training a object detection model with set of annoted face images will help in r
  # Import required libraries
  Open cv, numpy , tensorflow
  
- # creating custom data set of face images
+ # Creating custom data set of face images
   Using open cv library python script is written to capture images of face and save it in the directory.
   
   ![image](https://user-images.githubusercontent.com/69953585/110936867-89aad600-8357-11eb-8743-29735f39d800.png)
 
-  ![image](https://github.com/Thushar-marvel/Open_cv-face_recognition_emotion_recognition/blob/main/images/Screenshot%20(125).png)
-   ![image](https://github.com/Thushar-marvel/Open_cv-face_recognition_emotion_recognition/blob/main/images/Screenshot%20(126).png)
+ 
   
   
   # Pre processing the images and training the model
   The saved face images are converted to gray scale image
+   ![image](https://github.com/Thushar-marvel/Open_cv-face_recognition_emotion_recognition/blob/main/images/Screenshot%20(125).png)
+   ![image](https://github.com/Thushar-marvel/Open_cv-face_recognition_emotion_recognition/blob/main/images/Screenshot%20(126).png)
+   
+   
+   Trained Fisher face and LBPH model
+   Building object detection model using deep learning from scratch will be explanied in other repository(face detector using ssd)
+   Building CNN based face classification model is explained in other repository
+   Haarcascade.xml  is used for face detection and LBPH,Fisher face and CNN model is used for face classification task
+   
+   ![image](https://github.com/Thushar-marvel/Open_cv-face_recognition_emotion_recognition/blob/main/images/Screenshot%20(116).png)
+   
+   
+   
+   
+   
   
   
 
