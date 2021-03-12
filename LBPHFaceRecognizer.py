@@ -21,8 +21,8 @@ for (subdirs, dirs, files) in os.walk(datasets):
 
 #print(images, labels)
 model = cv2.face.LBPHFaceRecognizer_create()
-#model =  cv2.face.FisherFaceRecognizer_create()
 model.train(images, labels)
+model.save("LBPHFaceRecognizer.xml")
 
 face_cascade = cv2.CascadeClassifier(haar_file)
 webcam = cv2.VideoCapture(0)
