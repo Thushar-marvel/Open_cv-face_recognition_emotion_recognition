@@ -34,8 +34,9 @@ Fisherface method will be applied to generate feature vector of facial image dat
 
 
 # Local Binary Pattern (LBP)
-Local Binary Pattern (LBP) is a simple yet very efficient texture operator which labels the pixels of an image by thresholding the neighborhood of each pixel and considers the result as a binary number.
-It doesn't look at image as a whole, but instead tries to find its local structure by comparing each pixel to its neighboring pixels.
+
+Local Binary Pattern (LBP) is a simple yet very efficient texture operator which labels the pixels of an image by thresholding the neighborhood of each pixel and considers the result as a binary number.It doesn't look at image as a whole, but instead tries to find its local structure by comparing each pixel to its neighboring pixels.
+
 ![image](https://user-images.githubusercontent.com/69953585/110934075-93cad580-8353-11eb-85fd-cadeb22123e1.png)
 ![image](https://user-images.githubusercontent.com/69953585/110934114-9cbba700-8353-11eb-92ce-afaee46ec0bf.png)
 ![image](https://user-images.githubusercontent.com/69953585/110934099-99282000-8353-11eb-8116-046dd195d133.png)
@@ -51,10 +52,13 @@ Face detection using ssd model and classification using CNN explanation is given
 ![image](https://user-images.githubusercontent.com/69953585/110934586-308d7300-8354-11eb-986a-c2d0a0a82f19.png)
 
 # Procedure
+
  # Import required libraries
+ 
  Open cv, numpy , tensorflow
  
  # Creating custom data set of face images
+ 
   Using open cv library python script is written to capture images of face and save it in the directory.
   
   ![image](https://user-images.githubusercontent.com/69953585/110936867-89aad600-8357-11eb-8743-29735f39d800.png)
@@ -63,6 +67,7 @@ Face detection using ssd model and classification using CNN explanation is given
   
   
   # Pre processing the images and training the model
+  
   The saved face images are converted to gray scale image
    ![image](https://github.com/Thushar-marvel/Open_cv-face_recognition_emotion_recognition/blob/main/images/Screenshot%20(125).png)
    ![image](https://github.com/Thushar-marvel/Open_cv-face_recognition_emotion_recognition/blob/main/images/Screenshot%20(126).png)
@@ -76,7 +81,9 @@ Face detection using ssd model and classification using CNN explanation is given
    ![image](https://github.com/Thushar-marvel/Open_cv-face_recognition_emotion_recognition/blob/main/images/Screenshot%20(116).png)
    
    The task is for face detection and classification
+   
    # Face emotion recognition 
+   
    Install library
    
    ![image](https://user-images.githubusercontent.com/69953585/110942943-8ec05300-8360-11eb-8394-bdfe8327bfdd.png)
