@@ -1,4 +1,4 @@
-# Open_cv-face_recognition_emotion_recognition
+# OpenCV face recognition emotion recognition
 
 # Face detection
 
