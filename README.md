@@ -73,6 +73,17 @@ Training a object detection model with set of annoted face images will help in r
    
    ![image](https://github.com/Thushar-marvel/Open_cv-face_recognition_emotion_recognition/blob/main/images/Screenshot%20(116).png)
    
+   The task is for face detection and classification
+   # Face emotion recognition 
+   Install library
+   
+   ![image](https://user-images.githubusercontent.com/69953585/110942943-8ec05300-8360-11eb-8394-bdfe8327bfdd.png)
+   
+   This library consists of set of emotions it detect face and classify emotions.
+   ![image](https://github.com/Thushar-marvel/Open_cv-face_recognition_emotion_recognition/blob/main/images/Screenshot%20(127).png)
+   
+
+   
    
    
    
