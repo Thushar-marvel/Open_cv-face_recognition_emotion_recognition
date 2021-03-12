@@ -57,7 +57,8 @@ Training a object detection model with set of annoted face images will help in r
   
   ![image](https://user-images.githubusercontent.com/69953585/110936867-89aad600-8357-11eb-8743-29735f39d800.png)
 
-  
+  ![image](https://github.com/Thushar-marvel/Open_cv-face_recognition_emotion_recognition/blob/main/images/Screenshot%20(125).png)
+   ![image](https://github.com/Thushar-marvel/Open_cv-face_recognition_emotion_recognition/blob/main/images/Screenshot%20(126).png)
   
   
   # Pre processing the images and training the model
