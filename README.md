@@ -44,6 +44,8 @@ It doesn't look at image as a whole, but instead tries to find its local structu
 
 CNN has become a state of art for image classification and object detection task.There are many object detection algorithms are available like YOLO,SSD, R CNN,Faster R CNN etc
 Training a object detection model with set of annoted face images will help in real time face detection purpose.It requires more images and also hogh computational power.
+Face detection using ssd model and classification using CNN explanation is given [here](https://github.com/Thushar-marvel/Face_mask_detection)
+
 
 
 ![image](https://user-images.githubusercontent.com/69953585/110934586-308d7300-8354-11eb-986a-c2d0a0a82f19.png)
